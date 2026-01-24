@@ -2,54 +2,87 @@
 <html>
     <head>
         <title>My First Website</title>
+
+        <link href="css/style.css" rel="stylesheet">
      </head>
 
     <body>
-        <header>
-            <img src="images/logo.svg" alt="Company Logo">
-        </header>
+        <div class="wrapper">
 
-        <main>
+            <header>
+                <img src="images/logo.svg" alt="Company Logo">
 
-            <section>
-                    <!-- I can only use ond h1 per webpage-->
-                    <h1>Discover the Thrill of Bouldering</h1>
+                <nav class="primary-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="getting-started.html">Getting Sarted</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-                    <img src="images/bouldering-gym.jpg" alt="Picture of a indoor bouldering centre">
+            <main>
 
-            </section>   
+                <section>
+                        <!-- I can only use ond h1 per webpage-->
+                        <h1>
+                            Discover the Thrill of <span class="teal-text">Bouldering</span>
+                        </h1>
 
-            <section>
-                    <!-- I can use as many as I want h2 -->
-                    <h2>What is Bouldering?</h2>
+                        <img src="images/bouldering-gym.jpg" alt="Picture of a indoor bouldering centre">
 
-                    <p>Bouldering is a form of rock climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses. </p>
-                    <P>Unlike <a href="https://en.wikipedia.org/wiki/Traditional_climbing">traditional climbing</a>, bouldering focuses on short but intensive routes called "problems," typically keeping climbers within a safe distance from the ground while they navigate challenging sequences of moves.</P>
-                    <P>Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as you navigate routes close to the ground, with nothing but a crash pad and determination. Bouldering strips climbing down to its purest form, making it both <strong>accessible to beginners and endlessly challenging for experts</strong>.</P>
-            </section>
+                </section>   
 
-            <section>
-                <h2>Why Bouldering?</h2>
+                <section>
+                    <div class="two-column">
+                        <!-- I can use as many as I want h2 -->
+                       <div>
+                            <h2>What is Bouldering?</h2>
+                            <p>Bouldering is a form of rock climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses. </p>
+                            <P>Unlike <a href="https://en.wikipedia.org/wiki/Traditional_climbing">traditional climbing</a>, bouldering focuses on short but intensive routes called "problems," typically keeping climbers within a safe distance from the ground while they navigate challenging sequences of moves.</P>
+                        </div>
+                        <div>
+                            <img src="images/what-is-bouldering.jpg" alt=" a man climbing a wall  in an indoor climbing centre">
+                        </div>
+                    </div>
 
-                 <p>Whether you're a complete beginner or an experienced athlete, climbers of all ages can challenge themselves, celebrate each other's successes, and <em>build lasting friendships</em>.</p>
-           
-                <h3>Reasons to get started:</h3>
+                        <div class="teal-bg">
+                            <P>Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as you navigate routes close to the ground, with nothing but a crash pad and determination. </p>
 
-                <ul>
-                    <li>Full-body workout</li>
-                    <li>Improves problem solving skills</li>
-                    <li>Builds mental resilience</li>
-                    <li>And much more!</li>
-                </ul>
+                            <p>Bouldering strips climbing down to its purest form, making it both <strong>accessible to beginners and endlessly challenging for experts</strong>.</P>
+                        </div>
+                </section>
 
-                <P>Interested? <a href="getting-started.html">Then find out how to get started with bouldering!</a></P>
+                <section>
+                    <div class="two-column">
+                        <div>
+                            <img src="images/why-bouldering.jpg" alt="A man climbing an overhanging rock outside">
+                        </div>
+                        <div>
+                            <h2 class="teal-text">
+                                Why Bouldering?
+                            </h2>
+                            <p>Whether you're a complete beginner or an experienced athlete, climbers of all ages can challenge themselves, celebrate each other's successes, and <em>build lasting friendships</em>.</p>
 
-            </section>
-        </main>
+                            <h3>Reasons to get started:</h3>
+                            <ul>
+                                <li>Full-body workout</li>
+                                <li>Improves problem solving skills</li>
+                                <li>Builds mental resilience</li>
+                                <li>And much more!</li>
+                            </ul>
 
-        <footer>
-            <P>©2025 Boulder inc. All rights reserved.</P>
-        </footer>
+                            <P>Interested? <a href="getting-started.html">Then find out how to get started with bouldering!</a></P>
+                        </div>
+                    </div>
 
+        
+
+                </section>
+            </main>
+
+            <footer class="teal-bg">
+                <P>©2025 Boulder inc. All rights reserved.</P>
+            </footer>
+        </div>
     </body>
 </html>
